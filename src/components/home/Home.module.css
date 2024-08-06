@@ -1,0 +1,59 @@
+.header {
+  color: rgb(60, 67, 65);
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Edu AU VIC WA NT Hand", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.card {
+  /* width: 20rem; */
+  /* height: 20rem; */
+  background: linear-gradient(100deg, #000000, #333333);
+  color: white;
+  border: 5px solid black;
+  padding: 0.5rem 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.cardContainer {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(22rem, 22rem));
+  row-gap: 2rem;
+  column-gap: 4rem;
+  justify-content: center;
+}
+
+.delbtn,
+.updatebtn,
+.addbtn {
+  background: rgb(172, 119, 81);
+  border: none;
+  outline: none;
+  color: wheat;
+  font-size: 1.2rem;
+  padding: 0.2rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.delbtn {
+  margin-right: 2rem;
+}
+.addAlbumContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.addbtn {
+  margin-bottom: 1rem;
+}
+.updateModal,
+.addModal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #333333;
+}

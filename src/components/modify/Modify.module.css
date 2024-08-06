@@ -1,0 +1,45 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.updatebtn,
+.cancelbtn {
+  background: rgb(172, 119, 81);
+  border: none;
+  outline: none;
+  color: wheat;
+  font-size: 1.2rem;
+  padding: 0.2rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.updatebtn {
+  margin-right: 2rem;
+}
+.titleInputContainer,
+.bodyInputContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+}
+.inputLabel {
+  color: white;
+  font-size: 2rem;
+}
+.inputTextArea {
+  height: 9rem;
+  width: 30rem;
+  resize: none; /* Disable resizing */
+  padding: 10px; /* Optional: Add padding for better aesthetics */
+  font-size: 16px; /* Optional: Adjust font size */
+}
